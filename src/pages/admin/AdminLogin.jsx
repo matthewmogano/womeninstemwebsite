@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom'; // Add this import
-import wisLogoBlue from '../../assets/LOGO1 COPY PNG@300x.PNG';
+import wisLogoBlue from '/assets/LOGO1 COPY PNG@300x.PNG';
 
 const AdminLogin = () => {
   const [username, setUsername] = useState('');
