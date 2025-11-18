@@ -228,7 +228,7 @@ const About = () => {
               {/* Partner Logo Placeholders */}
               <div className="partner-logo">
                 <img
-                  src="/src/assets/biust.png"
+                  src="/assets/biust.png"
                   alt="BIUST Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -239,7 +239,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/basic_education.jpg"
+                  src="/assets/basic_education.jpg"
                   alt="Ministry of Basic Education Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -250,7 +250,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/afas.png"
+                  src="/assets/afas.png"
                   alt="AFAS Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -261,7 +261,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/cumbres_observation.jpg"
+                  src="/assets/cumbres_observation.jpg"
                   alt="Las Cumbres Observatory Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -272,7 +272,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/papssn.png"
+                  src="/assets/papssn.png"
                   alt="PAPSSN Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -283,7 +283,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/science_logo.jpg"
+                  src="/assets/science_logo.jpg"
                   alt="Science Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -294,7 +294,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/oad.png"
+                  src="/assets/oad.png"
                   alt="OAD Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -305,7 +305,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/oae.png"
+                  src="/assets/oae.png"
                   alt="OAE Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -316,7 +316,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/iau.jpg"
+                  src="/assets/iau.jpg"
                   alt="International Astronomical Union Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -327,7 +327,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/dara.png"
+                  src="/assets/dara.png"
                   alt="DARA"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -338,7 +338,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/starlight_education.png"
+                  src="/assets/starlight_education.png"
                   alt="Starlight Education Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -349,7 +349,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/ssvi.jpg"
+                  src="/assets/ssvi.jpg"
                   alt="SSVI Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -360,7 +360,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/stemi.png"
+                  src="/assets/stemi.png"
                   alt="STEMi Markers Africa Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -371,7 +371,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/isset.jpg"
+                  src="/assets/isset.jpg"
                   alt="ISSET Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';
@@ -382,7 +382,7 @@ const About = () => {
               </div>
               <div className="partner-logo">
                 <img
-                  src="/src/assets/time_education.png"
+                  src="/assets/time_education.png"
                   alt="Time Education Partner Logo"
                   onError={(e) => {
                     e.target.style.display = 'none';

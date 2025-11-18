@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <style>{`
         .hero-section {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/src/assets/nasa-background.jpg');
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/assets/nasa-background.jpg');
           background-size: cover;
           background-position: center;
           background-attachment: fixed;
@@ -271,7 +271,7 @@ const Home = () => {
 
       {/* Blog Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/src/assets/lab.jpg)',
+  backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/lab.jpg)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundAttachment: 'fixed',
@@ -306,7 +306,7 @@ const Home = () => {
 </section>
 {/* Opportunities Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(/src/assets/science.jpg)',
+  backgroundImage: 'linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(/assets/science.jpg)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   padding: '80px 0',
@@ -345,7 +345,7 @@ const Home = () => {
 </section>
 {/* Teams Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(234, 137, 102, 0.8), rgba(162, 84, 75, 0.8)), url(/src/assets/podcast.jpg)',
+  backgroundImage: 'linear-gradient(rgba(234, 137, 102, 0.8), rgba(162, 84, 75, 0.8)), url(/assets/podcast.jpg)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   padding: '80px 0',
