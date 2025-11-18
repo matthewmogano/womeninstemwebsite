@@ -79,7 +79,7 @@ function App() {
               />
 
               <Route
-                path="/admin/blogs"
+                path="/#/admin/blogs"
                 element={
                   <ProtectedRoute>
                     <ManageBlogs />
