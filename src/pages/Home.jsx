@@ -1,5 +1,5 @@
 import React from 'react';
-import wisLogoBlue from "../assets/LOGO1 COPY PNG@300x.png"
+import wisLogoBlue from "/assets/LOGO1 COPY PNG@300x.png"
 const Home = () => {
   return (
     <>
