@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import wisLogoRed from "../assets/LOGO2 COPY PNG@300x.png"
+import wisLogoRed from "/assets/LOGO2 COPY PNG@300x.png"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
