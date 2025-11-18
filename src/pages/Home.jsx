@@ -1,9 +1,9 @@
 import React from 'react';
 import wisLogoBlue from "/assets/LOGO1 COPY PNG@300x.png"
-import nasaBackground from "../assets/nasa-background.jpg";
-import labBackground from "../assets/lab.jpg";
-import scienceBackground from "../assets/science.jpg";
-import podcastBackground from "../assets/podcast.jpg";
+import nasaBackground from "/assets/nasa-background.jpg";
+import labBackground from "/assets/lab.jpg";
+import scienceBackground from "/assets/science.jpg";
+import podcastBackground from "/assets/podcast.jpg";
 const Home = () => {
   return (
     <>

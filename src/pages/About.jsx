@@ -1,22 +1,22 @@
 import React from 'react';
 import wisLogoRed from "/assets/LOGO2 COPY PNG@300x.png"
 // Import all partner images
-import biustImage from "../assets/biust.png";
-import basicEducationImage from "../assets/basic_education.jpg";
-import afasImage from "../assets/afas.png";
-import cumbresImage from "../assets/cumbres_observation.jpg";
-import papssnImage from "../assets/papssn.png";
-import scienceImage from "../assets/science_logo.jpg";
-import oadImage from "../assets/oad.png";
-import oaeImage from "../assets/oae.png";
-import iauImage from "../assets/iau.jpg";
-import daraImage from "../assets/dara.png";
-import starlightImage from "../assets/starlight_education.png";
-import ssviImage from "../assets/ssvi.jpg";
-import stemiImage from "../assets/stemi.png";
-import issetImage from "../assets/isset.jpg";
-import timeEducationImage from "../assets/time_education.png";
-import spaceGenerationImage from "../assets/space_generation.png";
+import biustImage from "/assets/biust.png";
+import basicEducationImage from "/assets/basic_education.jpg";
+import afasImage from "/assets/afas.png";
+import cumbresImage from "/assets/cumbres_observation.jpg";
+import papssnImage from "/assets/papssn.png";
+import scienceImage from "/assets/science_logo.jpg";
+import oadImage from "/assets/oad.png";
+import oaeImage from "/assets/oae.png";
+import iauImage from "/assets/iau.jpg";
+import daraImage from "/assets/dara.png";
+import starlightImage from "/assets/starlight_education.png";
+import ssviImage from "/assets/ssvi.jpg";
+import stemiImage from "/assets/stemi.png";
+import issetImage from "/assets/isset.jpg";
+import timeEducationImage from "/assets/time_education.png";
+import spaceGenerationImage from "/assets/space_generation.png";
 const About = () => {
   return (
     <>
