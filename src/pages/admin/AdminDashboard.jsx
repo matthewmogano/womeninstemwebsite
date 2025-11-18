@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { supabase } from '../../services/supabaseClient';
+import { Link } from 'react-router-dom';
 
 const AdminDashboard = () => {
   const { user, signOut } = useAuth();
