@@ -3,7 +3,6 @@ import { createEditor } from 'slate';
 import { Slate, Editable, withReact } from 'slate-react';
 import { useAuth } from '../../context/AuthContext';
 import { createPost, uploadImage } from '../../services/blogService';
-import { Link } from 'react-router-dom';
 
 
 const CreateBlog = () => {
@@ -412,7 +411,7 @@ const CreateBlog = () => {
 
       <div className="create-blog">
         <div className="container">
-          <a href="/admin/blogs" className="back-link">
+          <a href="/#/admin/blogs" className="back-link">
             ← Back to Manage Blogs
           </a>
 
@@ -584,7 +583,7 @@ const CreateBlog = () => {
                 >
                   {loading ? 'Creating...' : 'Create Blog Post'}
                 </button>
-                <a href="/admin/blogs" className="btn btn-secondary">
+                <a href="/#/admin/blogs" className="btn btn-secondary">
                   Cancel
                 </a>
               </div>

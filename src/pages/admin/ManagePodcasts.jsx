@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getAllEpisodes, deleteEpisode, updateEpisode } from '../../services/podcastService';
-import { Link } from 'react-router-dom';
-
 
 const ManagePodcasts = () => {
   const [episodes, setEpisodes] = useState([]);
@@ -78,7 +76,7 @@ const ManagePodcasts = () => {
         <div className="col-12">
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Manage Podcast Episodes</h1>
-            <Link to="/admin/podcasts/create" className="btn btn-primary">
+            <Link to="/#/admin/podcasts/create" className="btn btn-primary">
               Create New Episode
             </Link>
           </div>
@@ -92,7 +90,7 @@ const ManagePodcasts = () => {
           {episodes.length === 0 ? (
             <div className="text-center py-5">
               <p className="lead">No podcast episodes found.</p>
-              <Link to="/admin/podcasts/create" className="btn btn-primary">
+              <Link to="/#/admin/podcasts/create" className="btn btn-primary">
                 Create Your First Episode
               </Link>
             </div>

@@ -72,7 +72,7 @@ const CreateOpportunity = () => {
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Create New Opportunity</h1>
             <button 
-              onClick={() => navigate('/admin/opportunities')}
+              onClick={() => navigate('/#/admin/opportunities')}
               className="btn btn-outline-secondary"
             >
               Back to Opportunities
@@ -184,7 +184,7 @@ const CreateOpportunity = () => {
                   </button>
                   <button
                     type="button"
-                    onClick={() => navigate('/admin/opportunities')}
+                    onClick={() => navigate('/#/admin/opportunities')}
                     className="btn btn-outline-secondary"
                   >
                     Cancel

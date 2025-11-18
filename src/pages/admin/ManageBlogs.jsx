@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { getAllPosts, deletePost } from '../../services/blogService';
-import { Link } from 'react-router-dom';
 
 
 const ManageBlogs = () => {
@@ -304,12 +303,12 @@ const ManageBlogs = () => {
       <div className="manage-blogs">
         <div className="container">
           <div className="back-link">
-            <a href="/admin">← Back to Dashboard</a>
+            <a href="/#/admin">← Back to Dashboard</a>
           </div>
 
           <div className="page-header">
             <h1 className="page-title">Manage Blog Posts</h1>
-            <a href="/admin/blogs/create" className="create-btn">
+            <a href="/#/admin/blogs/create" className="create-btn">
               + Create New Post
             </a>
           </div>
@@ -325,7 +324,7 @@ const ManageBlogs = () => {
               <div className="empty-state">
                 <h3>No blog posts yet</h3>
                 <p>Create your first blog post to get started!</p>
-                <a href="/admin/blogs/create" className="create-btn">
+                <a href="/#/admin/blogs/create" className="create-btn">
                   Create Your First Post
                 </a>
               </div>
@@ -361,7 +360,7 @@ const ManageBlogs = () => {
                       <td>
                         <div className="action-buttons">
                           <a
-                            href={`/admin/blogs/edit/${post.id}`}
+                            href={`/#/admin/blogs/edit/${post.id}`}
                             className="btn btn-edit"
                           >
                             Edit

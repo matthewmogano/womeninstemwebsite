@@ -112,7 +112,7 @@ const EditGroup = () => {
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Edit Group</h1>
             <button 
-              onClick={() => navigate('/admin/groups')}
+              onClick={() => navigate('/#/admin/groups')}
               className="btn btn-outline-secondary"
             >
               Back to Groups
@@ -181,7 +181,7 @@ const EditGroup = () => {
                   </button>
                   <button
                     type="button"
-                    onClick={() => navigate('/admin/groups')}
+                    onClick={() => navigate('/#/admin/groups')}
                     className="btn btn-outline-secondary"
                   >
                     Cancel

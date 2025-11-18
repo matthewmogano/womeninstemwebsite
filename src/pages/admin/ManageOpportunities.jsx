@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getAllOpportunities, deleteOpportunity } from '../../services/opportunityService';
-import { Link } from 'react-router-dom';
-
 
 const ManageOpportunities = () => {
   const [opportunities, setOpportunities] = useState([]);
@@ -67,7 +65,7 @@ const ManageOpportunities = () => {
         <div className="col-12">
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Manage Opportunities</h1>
-            <Link to="/admin/opportunities/create" className="btn btn-primary">
+            <Link to="/#/admin/opportunities/create" className="btn btn-primary">
               Create New Opportunity
             </Link>
           </div>
@@ -81,7 +79,7 @@ const ManageOpportunities = () => {
           {opportunities.length === 0 ? (
             <div className="text-center py-5">
               <p className="lead">No opportunities found.</p>
-              <Link to="/admin/opportunities/create" className="btn btn-primary">
+              <Link to="/#/admin/opportunities/create" className="btn btn-primary">
                 Create Your First Opportunity
               </Link>
             </div>
@@ -134,7 +132,7 @@ const ManageOpportunities = () => {
                           <td>
                             <div className="btn-group">
                               <Link 
-                                to={`/admin/opportunities/edit/${opportunity.id}`}
+                                to={`/#/admin/opportunities/edit/${opportunity.id}`}
                                 className="btn btn-sm btn-outline-primary"
                               >
                                 Edit

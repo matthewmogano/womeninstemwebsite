@@ -166,7 +166,7 @@ const ManageTeamMembers = () => {
                 {showAddForm ? 'Cancel' : 'Add Member'}
               </button>
               <button 
-                onClick={() => navigate('/admin/teams')}
+                onClick={() => navigate('/#/admin/teams')}
                 className="btn btn-outline-secondary"
               >
                 Back to Teams

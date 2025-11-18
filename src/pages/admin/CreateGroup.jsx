@@ -57,7 +57,7 @@ const CreateGroup = () => {
 
       setMessage('Group created successfully!');
       setTimeout(() => {
-        navigate('/admin/groups');
+        navigate('/#/admin/groups');
       }, 1500);
     } catch (error) {
       console.error('Error creating group:', error);
@@ -145,7 +145,7 @@ const CreateGroup = () => {
                   </button>
                   <button
                     type="button"
-                    onClick={() => navigate('/admin/groups')}
+                    onClick={() => navigate('/#/admin/groups')}
                     className="btn btn-outline-secondary"
                   >
                     Cancel

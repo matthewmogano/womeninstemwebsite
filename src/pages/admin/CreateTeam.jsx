@@ -50,7 +50,7 @@ const CreateTeam = () => {
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Create New Team</h1>
             <button 
-              onClick={() => navigate('/admin/teams')}
+              onClick={() => navigate('/#/admin/teams')}
               className="btn btn-outline-secondary"
             >
               Back to Teams

@@ -61,7 +61,7 @@ const ManageGroups = () => {
         <div className="col-12">
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Manage Opportunity Groups</h1>
-            <Link to="/admin/groups/create" className="btn btn-primary">
+            <Link to="/#/admin/groups/create" className="btn btn-primary">
               Create New Group
             </Link>
           </div>
@@ -75,7 +75,7 @@ const ManageGroups = () => {
           {groups.length === 0 ? (
             <div className="text-center py-5">
               <p className="lead">No groups found.</p>
-              <Link to="/admin/groups/create" className="btn btn-primary">
+              <Link to="/#/admin/groups/create" className="btn btn-primary">
                 Create Your First Group
               </Link>
             </div>
@@ -132,13 +132,13 @@ const ManageGroups = () => {
                           <td>
                             <div className="btn-group">
                               <Link 
-                                to={`/admin/groups/edit/${group.id}`}
+                                to={`/#/admin/groups/edit/${group.id}`}
                                 className="btn btn-sm btn-outline-primary"
                               >
                                 Edit
                               </Link>
                               <Link 
-                                to={`/admin/opportunities?group=${group.id}`}
+                                to={`/#/admin/opportunities?group=${group.id}`}
                                 className="btn btn-sm btn-outline-success"
                               >
                                 Opportunities

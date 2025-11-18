@@ -295,16 +295,16 @@ const AdminDashboard = () => {
             <div className="actions-section">
               <h3 className="actions-title">Quick Actions</h3>
               <div className="actions-grid">
-                <a href="/admin/blogs" className="action-btn">
+                <a href="/#/admin/blogs" className="action-btn">
                   📝 Manage Blogs
                 </a>
-                <a href="/admin/teams" className="action-btn secondary">
+                <a href="/#/admin/teams" className="action-btn secondary">
                   👥 Manage Teams
                 </a>
-                <a href="/admin/groups" className="action-btn green">
+                <a href="/#/admin/groups" className="action-btn green">
                   🎯 Manage Opportunities
                 </a>
-                <a href="/admin/podcasts" className="action-btn">
+                <a href="/#/admin/podcasts" className="action-btn">
                   🎙️ Manage Podcasts
                 </a>
               </div>

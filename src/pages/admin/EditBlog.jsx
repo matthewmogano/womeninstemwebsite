@@ -504,7 +504,7 @@ const EditBlog = () => {
 
       <div className="edit-blog">
         <div className="container">
-          <a href="/admin/blogs" className="back-link">
+          <a href="/#/admin/blogs" className="back-link">
             ← Back to Manage Blogs
           </a>
 
@@ -676,7 +676,7 @@ const EditBlog = () => {
                 >
                   {saving ? 'Saving...' : 'Update Blog Post'}
                 </button>
-                <a href="/admin/blogs" className="btn btn-secondary">
+                <a href="/#/admin/blogs" className="btn btn-secondary">
                   Cancel
                 </a>
               </div>

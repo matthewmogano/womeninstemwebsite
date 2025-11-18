@@ -1,7 +1,6 @@
 // src/pages/admin/CreatePodcast.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import { createEpisode } from '../../services/podcastService';
 
 const CreatePodcast = () => {
@@ -56,7 +55,7 @@ const CreatePodcast = () => {
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Create New Podcast Episode</h1>
             <button 
-              onClick={() => navigate('/admin/podcasts')}
+              onClick={() => navigate('/#/admin/podcasts')}
               className="btn btn-outline-secondary"
             >
               Back to Episodes
@@ -146,7 +145,7 @@ const CreatePodcast = () => {
                   </button>
                   <button
                     type="button"
-                    onClick={() => navigate('/admin/podcasts')}
+                    onClick={() => navigate('/#/admin/podcasts')}
                     className="btn btn-outline-secondary"
                   >
                     Cancel

@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getTeamById, updateTeam } from '../../services/teamService';
-import { Link } from 'react-router-dom';
-
 
 const EditTeam = () => {
   const { id } = useParams();
@@ -87,7 +85,7 @@ const EditTeam = () => {
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h1>Edit Team</h1>
             <button 
-              onClick={() => navigate('/admin/teams')}
+              onClick={() => navigate('/#/admin/teams')}
               className="btn btn-outline-secondary"
             >
               Back to Teams
@@ -138,7 +136,7 @@ const EditTeam = () => {
                   </button>
                   <button
                     type="button"
-                    onClick={() => navigate('/admin/teams')}
+                    onClick={() => navigate('/#/admin/teams')}
                     className="btn btn-outline-secondary"
                   >
                     Cancel
