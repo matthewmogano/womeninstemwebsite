@@ -1,11 +1,15 @@
 import React from 'react';
 import wisLogoBlue from "/assets/LOGO1 COPY PNG@300x.png"
+import nasaBackground from "../assets/nasa-background.jpg";
+import labBackground from "../assets/lab.jpg";
+import scienceBackground from "../assets/science.jpg";
+import podcastBackground from "../assets/podcast.jpg";
 const Home = () => {
   return (
     <>
       <style>{`
         .hero-section {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/assets/nasa-background.jpg');
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(${nasaBackground});
           background-size: cover;
           background-position: center;
           background-attachment: fixed;
@@ -271,7 +275,7 @@ const Home = () => {
 
       {/* Blog Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/lab.jpg)',
+  backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${labBackground})',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundAttachment: 'fixed',
@@ -306,7 +310,7 @@ const Home = () => {
 </section>
 {/* Opportunities Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(/assets/science.jpg)',
+  backgroundImage: 'linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(${scienceBackground})',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   padding: '80px 0',
@@ -345,7 +349,7 @@ const Home = () => {
 </section>
 {/* Teams Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(234, 137, 102, 0.8), rgba(162, 84, 75, 0.8)), url(/assets/podcast.jpg)',
+  backgroundImage: 'linear-gradient(rgba(234, 137, 102, 0.8), rgba(162, 84, 75, 0.8)), url(${podcastBackground})',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   padding: '80px 0',

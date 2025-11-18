@@ -1,5 +1,22 @@
 import React from 'react';
 import wisLogoRed from "/assets/LOGO2 COPY PNG@300x.png"
+// Import all partner images
+import biustImage from "../assets/biust.png";
+import basicEducationImage from "../assets/basic_education.jpg";
+import afasImage from "../assets/afas.png";
+import cumbresImage from "../assets/cumbres_observation.jpg";
+import papssnImage from "../assets/papssn.png";
+import scienceImage from "../assets/science_logo.jpg";
+import oadImage from "../assets/oad.png";
+import oaeImage from "../assets/oae.png";
+import iauImage from "../assets/iau.jpg";
+import daraImage from "../assets/dara.png";
+import starlightImage from "../assets/starlight_education.png";
+import ssviImage from "../assets/ssvi.jpg";
+import stemiImage from "../assets/stemi.png";
+import issetImage from "../assets/isset.jpg";
+import timeEducationImage from "../assets/time_education.png";
+import spaceGenerationImage from "../assets/space_generation.png";
 const About = () => {
   return (
     <>
@@ -225,182 +242,54 @@ const About = () => {
             <div className="partners-section">
               <h4 className="fw-bold mb-4 text-center">Strategic Affiliations, Supporters & Partners</h4>
 
-              {/* Partner Logo Placeholders */}
+              {/* Partner Logos with imported images */}
               <div className="partner-logo">
-                <img
-                  src="/assets/biust.png"
-                  alt="BIUST Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>BIUST</div>
+                <img src={biustImage} alt="BIUST Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/basic_education.jpg"
-                  alt="Ministry of Basic Education Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>Ministry of Basic Education</div>
+                <img src={basicEducationImage} alt="Ministry of Basic Education Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/afas.png"
-                  alt="AFAS Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>African Astronomical Society</div>
+                <img src={afasImage} alt="AFAS Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/cumbres_observation.jpg"
-                  alt="Las Cumbres Observatory Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>Las Cumbres Observatory</div>
+                <img src={cumbresImage} alt="Las Cumbres Observatory Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/papssn.png"
-                  alt="PAPSSN Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>PAPSSN</div>
+                <img src={papssnImage} alt="PAPSSN Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/science_logo.jpg"
-                  alt="Science Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>SCIENCE</div>
+                <img src={scienceImage} alt="Science Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/oad.png"
-                  alt="OAD Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>OAD</div>
+                <img src={oadImage} alt="OAD Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/oae.png"
-                  alt="OAE Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>OAE</div>
+                <img src={oaeImage} alt="OAE Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/iau.jpg"
-                  alt="International Astronomical Union Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>International Astronomical Union</div>
+                <img src={iauImage} alt="International Astronomical Union Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/dara.png"
-                  alt="DARA"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>DARA</div>
+                <img src={daraImage} alt="DARA" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/starlight_education.png"
-                  alt="Starlight Education Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>Starlight Education</div>
+                <img src={starlightImage} alt="Starlight Education Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/ssvi.jpg"
-                  alt="SSVI Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>SSVI</div>
+                <img src={ssviImage} alt="SSVI Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/stemi.png"
-                  alt="STEMi Markers Africa Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>STEMi Makers Africa</div>
+                <img src={stemiImage} alt="STEMi Markers Africa Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/isset.jpg"
-                  alt="ISSET Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>ISSET</div>
+                <img src={issetImage} alt="ISSET Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/assets/time_education.png"
-                  alt="Time Education Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>Time Education</div>
+                <img src={timeEducationImage} alt="Time Education Partner Logo" />
               </div>
               <div className="partner-logo">
-                <img
-                  src="/src/assets/space_generation.png"
-                  alt="Space Generation Partner Logo"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'block';
-                  }}
-                />
-                <div className="partner-placeholder" style={{ display: 'none' }}>Space Generation</div>
+                <img src={spaceGenerationImage} alt="Space Generation Partner Logo" />
               </div>
 
               <div className="text-center mt-4">
