@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getAllPublishedEpisodes } from '../services/podcastService';
+import tumpPic from '/assets/tumo.jpg';
+import keletsoPic from '/assets/keletso.jpg'
 
 const AstroSpace = () => {
   const [episodes, setEpisodes] = useState([]);
@@ -159,7 +161,7 @@ const AstroSpace = () => {
                   border: '4px solid #ea8966ff'
                 }}>
                   <img
-                    src="/src/assets/tumo.jpg" // Replace with your actual image path
+                    src={tumpPic} // Replace with your actual image path
                     alt="Host Name 1"
                     style={{
                       width: '100%',
@@ -206,7 +208,7 @@ const AstroSpace = () => {
                   border: '4px solid #667eea'
                 }}>
                   <img
-                    src="/src/assets/keletso.jpg" // Replace with your actual image path
+                    src={keletsoPic} // Replace with your actual image path
                     alt="Host Name 2"
                     style={{
                       width: '100%',

@@ -275,13 +275,13 @@ const Home = () => {
 
       {/* Blog Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${labBackground})',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
-  backgroundAttachment: 'fixed',
-  padding: '80px 0',
-  color: 'white'
-}}>
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${labBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        padding: '80px 0',
+        color: 'white'
+      }}>
   <div className="container">
     <div className="row align-items-center">
       <div className="col-lg-8">
@@ -310,12 +310,12 @@ const Home = () => {
 </section>
 {/* Opportunities Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(${scienceBackground})',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
-  padding: '80px 0',
-  color: 'white'
-}}>
+        backgroundImage: `linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(${scienceBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        padding: '80px 0',
+        color: 'white'
+      }}>
   <div className="container">
     <div className="row align-items-center">
       <div className="col-lg-8">
@@ -349,12 +349,12 @@ const Home = () => {
 </section>
 {/* Teams Section */}
 <section style={{ 
-  backgroundImage: 'linear-gradient(rgba(234, 137, 102, 0.8), rgba(162, 84, 75, 0.8)), url(${podcastBackground})',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
-  padding: '80px 0',
-  color: 'white'
-}}>
+        backgroundImage: `linear-gradient(rgba(234, 137, 102, 0.8), rgba(162, 84, 75, 0.8)), url(${podcastBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        padding: '80px 0',
+        color: 'white'
+      }}>
   <div className="container">
     <div className="row align-items-center">
       <div className="col-lg-8">
