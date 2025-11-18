@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Change this line
 
 // Import components
 import Navbar from './components/navbar';
@@ -47,7 +47,7 @@ import './App.css';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router> {/* This now uses HashRouter */}
         <div className="App">
           {/* Navbar will appear on all pages */}
           <Navbar />
